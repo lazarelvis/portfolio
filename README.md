@@ -82,3 +82,23 @@ sudo rm default
 systemctl restart nginx
 sudo ln -s /etc/nginx/sites-available/example.ro /etc/nginx/sites-enabled/example.ro
 systemctl restart nginx (now ip public should redirect to dns 301code)
+
+
+---install SSL certificate---
+https://docs.chaicode.com/ssl-in-nginx-ubuntu/
+```
+sudo apt install certbot python3-certbot-nginx
+sudo nano /etc/nginx/sites-available/default
+```
+server {
+    ...
+    server_name test.chaicode.com;
+    ...
+}
+```
+sudo nginx -t
+sudo certbot --nginx -d test.chaicode.com
+renew certificate
+sudo certbot renew --dry-run
+sudo certbot renew
+```
