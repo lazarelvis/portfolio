@@ -43,12 +43,24 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey (University)" },
-  { year: 2018, text: "Design Web (HTML & CSS)" },
-  { year: 2019, text: "PHP and Databases" },
-  { year: 2020, text: "Employee at a company and learned ReactJS" },
+  {
+    year: 2020,
+    text: "Employee at a company and learned ReactJS at IVFuture SRL",
+  },
   {
     year: 2021,
     text: "Worked as a freelance developer and finish my University",
+  },
+  {
+    year: 2022,
+    text: "Starting my journey as Software Test Engineer at in-tech engineering services",
+  },
+  {
+    year: 2023,
+    text: "Learning more about software testing by getting ISTQB",
+  },
+  {
+    year: 2024,
+    text: "Starting to learn more about test automation with python",
   },
 ];
