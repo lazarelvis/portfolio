@@ -75,7 +75,7 @@ server {
         server_name "public IP adress";
         return 301 http://example.ro;
 }
----to be available this changes we need to have this settings in sites-enabled----
+---To be available this changes we need to have this settings in sites-enabled----
 cd /etc/nginx/sites-enabled/
 ls -l (we can se the simlink)
 sudo rm default
@@ -102,3 +102,4 @@ renew certificate
 sudo certbot renew --dry-run
 sudo certbot renew
 ```
+
