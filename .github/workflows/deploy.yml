@@ -1,0 +1,40 @@
+name: Deploy Node.js App
+on:
+  push:
+    branches:
+      - master # Or your deployment branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest # Or your desired runner OS
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16' # Specify your required Node.js version
+          
+      - name: Install dependencies
+        run: npm install # Or yarn install
+
+      - name: Build app (if needed)
+        run: npm run build # Or your build command
+
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1 #Example of an SSH action.
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            export NVM_DIR=~/.nvm #helps the terminal fix the node path installed by nvm
+            source ~/.nvm/nvm.sh #helps the terminal fix the node path installed by nvm
+            cd /root/portfolio # Path where you want to deploy
+            nvm use 16 #use node js version 22
+            git pull origin master # or your branch
+            npm i  #install production dependancies on the server.
+            npm run build
+            cp -R /root/portfolio/out/* /var/www/lazarelvis.ro/
