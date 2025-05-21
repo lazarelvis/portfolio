@@ -1,66 +1,70 @@
 export const projects = [
   {
-    title: "E-Commerce Wordpress",
+    title: "Webdigit IT Solution",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["CMS", "PHP"],
-    source: "https://github.com/lazarelvis",
-    visit: "https://github.com/lazarelvis",
+      "Un proiecte realizat in NextJS, este un site de prezentare pentru o agentie care se ocupa cu crearea de website-uri, SEO, marketing online pentru alte business-uri.",
+    image: "/images/webdigit-website.png",
+    tags: ["NextJS", "ReactJS", "Tailwind CSS"],
+    source: "https://github.com/lazarelvis/webdigit-it-solutions",
+    visit: "https://webdigit.ro/",
     id: 0,
+    alt: "Webdigit IT Solution",
   },
   {
-    title: "Presentation M-City",
+    title: "Site prezentare Manchester-City",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/3.png",
+      "Un site care prezinta, meciurile, echipa si informatii despre Manchester City cu optiunea sa adaugi, stergi modifici informatiile.",
+    image: "/images/manchester-city-site-prezentare.png",
     tags: ["React", "JavaScript", "Firebase"],
     source: "https://github.com/lazarelvis/ManchesterCityProject2",
-    visit: "https://github.com/lazarelvis/ManchesterCityProject2",
+    visit: "https://manc-city.netlify.app/",
+    alt: "Site prezentare Manchester-City",
     id: 1,
   },
   {
-    title: "Gaming & Unity",
+    title: "Gaming cu Unity",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/4.png",
-    tags: ["React", "Unity", "FeathersJS", "Redux"],
+      "Un website în care poți să te joci multiple jocuri realizate în Unity și ai posibilitea să intri în competiție cu alti jucători.",
+    image: "/images/gaming-zone-website.png",
+    tags: ["React", "Unity", "FeathersJS", "Redux", "MongoDB"],
     source: "https://github.com/lazarelvis/Mande-Gaming-sf",
-    visit: "https://github.com/lazarelvis/Mande-Gaming-sf",
+    visit: "https://mandegaming.netlify.app",
+    alt: "website de gaming mande",
     id: 2,
   },
   {
-    title: "MERN E-Commerce",
+    title: "Guitar Shop",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/2.png",
+      "Este un platforma E-commerce prin care poti comercializa diferite produse in acest caz poti comercializa chitare",
+    image: "/images/shop-ecomerce-website.png",
     tags: ["Mongo", "Express", "React", "Node", "Redux"],
 
     source: "https://github.com/lazarelvis/waves",
     visit: "https://github.com/lazarelvis/waves",
     id: 3,
+    alt: "platforma E-commerce de vandut chitare",
   },
 ];
 
 export const TimeLineData = [
   {
     year: 2020,
-    text: "Employee at a company and learned ReactJS at IVFuture SRL",
+    text: "Angajat la o firmă si am învățat ReactJS la IVFuture SRL",
   },
   {
     year: 2021,
-    text: "Worked as a freelance developer and finish my University",
+    text: "Am lucrat ca dezvoltator freelance și am terminat facultatea",
   },
   {
     year: 2022,
-    text: "Starting my journey as Software Test Engineer at in-tech engineering services",
+    text: "Am început cariera de Software Test Engineer în domeniul automotive",
   },
   {
     year: 2023,
-    text: "Learning more about software testing by getting ISTQB",
+    text: "Am învățat mai multe despre testare software și am obținut certificarea ISTQB",
   },
   {
     year: 2024,
-    text: "Starting to learn more about test automation with python",
+    text: "Încep să învăț mai multe despre automatizare cu Python si am înființat Webdigit",
   },
 ];

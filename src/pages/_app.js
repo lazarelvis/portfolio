@@ -3,12 +3,12 @@ import Theme from "../styles/theme";
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <title>Lazar Elvis Portfolio</title>
+      <title>Lazar Elvis Portofoliu</title>
       <meta
-        name="description"
-        content="Welcome to
-My Personal Portfolio
-The purpose of this portfolio is to help others to see what am I doing and show my skills to others who are interested to build awesome apps."
+        name="Salut! Eu sunt Elvis și acesta este portofoliul meu."
+        content="Salut! Eu sunt Lazar Elvis
+și acesta este portofoliul meu.
+Scopul acestui portofoliu este să îi ajute pe ceilalți să vadă ce fac și să îmi evidențiez abilitățile în fața celor interesați de aplicații grozave."
       />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <Theme>

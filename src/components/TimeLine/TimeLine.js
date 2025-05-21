@@ -65,11 +65,11 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>Despre mine</SectionTitle>
       <SectionText>
-        A guy who liked always computers and had the change to study more about
-        this into University and so I became passionate about programing and
-        technology.
+        Un tip pasionat de calculatoare încă din copilărie și care a avut șansa
+        să aprofundeze totul la facultate. Așa am devenit pasionat de programare
+        și tehnologie.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         {TimeLineData.map((item, index) => (

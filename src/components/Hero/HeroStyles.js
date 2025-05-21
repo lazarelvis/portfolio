@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const LeftSection = styled.div`
-  width: 100%;
+  width: 75%; /*acesta este codul modificat*/
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     display: flex;
@@ -15,5 +15,13 @@ export const LeftSection = styled.div`
     flex-direction: column;
 
     margin: 0 auto;
+  }
+`;
+
+export const RightSection = styled.div`
+  width: 100%;
+  padding-top: 50px;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    display: none;
   }
 `;

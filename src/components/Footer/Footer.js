@@ -27,7 +27,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Inovez un proiect pe rând</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/lazarelvis">
           <AiFillGithub size="3rem" />

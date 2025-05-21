@@ -20,10 +20,10 @@ const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Tehnologii</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world. From
-      Back-end To Design
+      Am lucrat cu o gamă variată de tehnologii în dezvoltarea web – de la
+      back-end la design.
     </SectionText>
     <List>
       <ListItem>
@@ -31,8 +31,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            Experiență cu <br />
+            React JS si Next.JS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,8 +41,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js and Databases
+            Experiență cu <br />
+            Node.js si baze de date: SQL si NoSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -51,8 +51,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Adobe XD
+            Experiență cu <br />
+            tool-uri ca Adobe XD si Photoshop
           </ListParagraph>
         </ListContainer>
       </ListItem>
